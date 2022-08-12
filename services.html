@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/11bd7d434d.js" crossorigin="anonymous"></script>
+     </head>
+<body>
+
+
+<!-- Header -->
+
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href ="index.html">HOME</a> </li>
+                    <li> <a href ="about.html">ABOUT</a> </li>
+                    <li> <a href ="services.html">SERVICES</a> </li>
+                    <li> <a href ="blog-1.html">BLOG</a> </li>
+                    <li> <a href ="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+        </section>
+
+
+<!-- Services -->
+
+<section class="services">
+    <h1>Services we provide</h1>
+    <p> We work towards providing the best service to make your life easier and happier.</p>
+       <div class="row">
+           <div class="services-col">
+               <h3>Training</h3>
+               <p> We offer professional trainers to get your pet the care and discipline it needs.
+               </p>
+           </div>
+           <div class="services-col">
+               <h3>Walking</h3>
+               <p> PETA approved walkers available at your doorstep, everyday, in one click.
+               </p>
+           </div>
+         <div class="services-col"> 
+               <h3>House Sitting</h3>
+               <p> Going out tonight? Don't worry! We got you covered. Hire professionals to take care of your pet.
+               </p>
+            </div>
+           <div class="services-col">
+               <h3>Food Delivery</h3>
+               <p> Get all of your pet's food supply delivered right at your doorstep without any hassle.
+               </p>
+           </div> 
+           <div class="services-col">
+               <h3>Medicines</h3>
+               <p> Book all the necessary medicines to keep your pet healthy, and get it delivered in under 24 hours.
+               </p>
+           </div>
+           <div class="services-col">
+               <h3>Vet Consultation</h3>
+               <p> Is your pet acting weird? Consult a vet now! 
+               </p>
+           </div>
+       </div>
+</section>
+    
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We work towrads providing the best care your pet deserves!<p>
+        <div class="icons">
+            <a href ="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href ="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href ="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <p> &copy; Copyright 2022 || All Rights Reserved. 
+         <br>Made by Ritwiz Singh</p>
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right="0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
